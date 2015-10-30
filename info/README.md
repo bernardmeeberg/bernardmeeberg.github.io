@@ -1,1 +1,0 @@
-# bernardmeeberg.github.io
