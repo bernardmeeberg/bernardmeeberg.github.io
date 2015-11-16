@@ -5,8 +5,18 @@ body {
 
 h1 {
     font-size: 350%;
+    animation: color 5s infinite;
+    
 }
 
 p {
     font-size: 150%;
+}
+
+@keyframes color {
+    0%{color: #000000;}
+    25%{color: #1B5E20;}
+    50%{color: #0D47A1;}
+    75%{color: #4A148C;}
+    100%{color: #000000;}
 }
