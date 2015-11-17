@@ -3,13 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#titel {
+.titel {
     font-size: 1050%;
     animation: color 60s infinite;
     line-height: 0%;
 }
 
-#ondertitel {
+.ondertitel {
     font-size: 500%;
     color: black;
     line-height: 0%;
