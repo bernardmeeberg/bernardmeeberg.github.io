@@ -42,10 +42,10 @@ a:visited {
 /* responsive */
 @media only screen and (max-width: 500px) {
     #titel {
-        font-size: 525%;
+        font-size: 600%;
     }
     #ondertitel {
-        font-size: 250%;
+        font-size: 280%;
     }
 }
 
