@@ -1,22 +1,53 @@
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 350%;
-    animation: color 10s infinite;
-    
+#titel {
+    font-size: 1050%;
+    animation: color 60s infinite;
+    line-height: 0%;
+}
+
+#ondertitel {
+    font-size: 500%;
+    color: black;
+    line-height: 0%;
 }
 
 p {
     font-size: 150%;
 }
 
-@keyframes color {
-    0%{color: #000000;}
-    25%{color: #1B5E20;}
-    50%{color: #0D47A1;}
-    75%{color: #4A148C;}
-    100%{color: #000000;}
+a {
+    text-decoration: none;
+    color: black;
 }
+
+a:visited {
+    color: black;
+}
+
+@keyframes color {
+    0%{color: black;}
+    15%{color: #C62828;}
+    30%{color: #EF6C00;}
+    45%{color: #F9A825;}
+    60%{color: #2E7D32;}
+    75%{color: #1565C0;}
+    90%{color: #6A1B9A;}
+    100%{color: black;}
+}
+
+/* responsive */
+@media only screen and (max-width: 500px) {
+    #titel {
+        font-size: 525%;
+    }
+    #ondertitel {
+        font-size: 250%;
+    }
+}
+
+
+
