@@ -22,10 +22,16 @@ p {
 a {
     text-decoration: none;
     color: black;
+    font-size: 120%;
 }
 
-a:visited {
-    color: black;
+a:hover {
+    animation: color 3s infinite;
+}
+
+@keyframes hover {
+    from{color: black;}
+    to{color: grey;}
 }
 
 @keyframes color {
