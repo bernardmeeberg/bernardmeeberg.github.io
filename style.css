@@ -1,6 +1,9 @@
 body {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
 }
 
 .titel {
@@ -10,19 +13,21 @@ body {
 }
 
 .ondertitel {
-    font-size: 500%;
+    font-size: 540%;
     color: black;
     line-height: 0%;
 }
 
 p {
+    font-family: 'Roboto Slab', serif;
     font-size: 150%;
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-size: 120%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 105%;
 }
 
 a:hover {
@@ -51,7 +56,7 @@ a:hover {
         font-size: 600%;
     }
     .ondertitel {
-        font-size: 280%;
+        font-size: 300%;
     }
 }
 
