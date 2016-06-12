@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    color: #59B75C;
+    background-color: #292B36;
 }
 
 h1 {
@@ -8,13 +10,13 @@ h1 {
 
 .titel {
     font-size: 1050%;
-    animation: color 60s infinite;
+    /*animation: color 60s infinite;*/
     line-height: 0%;
 }
 
 .ondertitel {
     font-size: 540%;
-    color: black;
+    /*color: black;*/
     line-height: 0%;
 }
 
@@ -25,18 +27,13 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    /*color: black;*/
     font-family: 'Roboto Slab', serif;
     font-size: 105%;
 }
 
-a:hover {
+/*a:hover {
     animation: color 3s infinite;
-}
-
-@keyframes hover {
-    from{color: black;}
-    to{color: grey;}
 }
 
 @keyframes color {
@@ -48,7 +45,7 @@ a:hover {
     75%{color: #1565C0;}
     90%{color: #6A1B9A;}
     100%{color: black;}
-}
+}*/
 
 /* responsive */
 @media only screen and (max-width: 650px) {
