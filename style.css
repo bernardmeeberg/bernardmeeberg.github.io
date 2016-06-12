@@ -31,8 +31,16 @@ a {
     font-size: 105%;
 }
 
+.titel:hover {
+    animation: color 6s infinite;
+}
+
+.ondertitel:hover {
+    animation: color 6s infinite;
+}
+
 a:hover {
-    animation: color 3s infinite;
+    animation: color 6s infinite;
 }
 
 @keyframes color {
