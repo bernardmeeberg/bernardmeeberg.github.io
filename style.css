@@ -31,7 +31,7 @@ a {
     font-size: 105%;
 }
 
-.titel:hover {
+h1:hover {
     animation: color 6s infinite;
 }
 
