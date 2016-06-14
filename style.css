@@ -7,6 +7,10 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
+h1:hover {
+    animation: color 6s infinite;
+}
+
 .titel {
     font-size: 1050%;
     /*animation: color 60s infinite;*/
@@ -19,20 +23,30 @@ h1 {
     line-height: 0%;
 }
 
-p {
+#quote {
+    font-size: 150%;
+    line-height: 0%;
+    font-family: 'Playfair Display', serif;
+    animation: color 6s infinite ease-in-out;
+}
+
+#info {
     font-family: 'Roboto Slab', serif;
     font-size: 150%;
 }
 
-a {
+#links {
+    position: fixed;
+    bottom: 2.5%;
+    width: 100%;
+    text-align: center;
+}
+
+#links > a {
     text-decoration: none;
     color: #292B36;
     font-family: 'Roboto Slab', serif;
     font-size: 105%;
-}
-
-h1:hover {
-    animation: color 6s infinite;
 }
 
 .ondertitel:hover {
@@ -44,15 +58,21 @@ a:hover {
 }
 
 @keyframes color {
-    0%{color: black;}
+    0%{color: #292B36;}
     15%{color: #C62828;}
     30%{color: #EF6C00;}
     45%{color: #F9A825;}
     60%{color: #2E7D32;}
     75%{color: #1565C0;}
     90%{color: #6A1B9A;}
-    100%{color: black;}
-}*/
+    100%{color: #292B36;}
+}
+
+@keyframes style {
+    0%{font-style: normal;}
+    50%{font-style: italic;}
+    100%{font-style: normal;}
+}
 
 /* responsive */
 @media only screen and (max-width: 650px) {
