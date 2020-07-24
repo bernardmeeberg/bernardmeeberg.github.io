@@ -12,15 +12,17 @@ body {
     font-family: Calibri;
     font-style: normal;
     text-decoration: none;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.naam {
+  font-weight: bold;
 }
 
 .titel {
     font-size: 300%;
     line-height: normal;
-}
-
-.naam {
-  text-transform: uppercase;
 }
 
 #menu {
@@ -30,7 +32,8 @@ body {
     transform: translate(50%, -50%);
     width: 50%;
     text-align: center;
-    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
 }
 
 #menu > ul {
@@ -38,9 +41,8 @@ body {
 }
 
 li {
-  padding: 20px;
-  background: rgba(128, 128, 128, 0.5);
-
+  padding: 10px;
+  text-align: center;
 }
 
 a {
