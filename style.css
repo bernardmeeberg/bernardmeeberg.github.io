@@ -81,10 +81,9 @@ ul:hover {
 }
 
 @media only screen and (max-width: 350px) {
-    .titel {
-        font-size: 100%;
-    }
-    .ondertitel {
-        font-size: 100%;
-    }
+  html {
+    background: url("radboud.jpg");
+    background-position: center;
+    background-size: auto;
+  }
 }
