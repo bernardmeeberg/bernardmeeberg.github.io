@@ -1,78 +1,67 @@
+html {
+  background: url("radboud.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}
+
 body {
     text-align: center;
-    color: #292B36 ;
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-}
-
-h1:hover {
-    animation: color 6s infinite;
+    color: white;
+    font-family: Calibri;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .titel {
-    font-size: 1050%;
-    /*animation: color 60s infinite;*/
-    line-height: 0%;
+    font-size: 300%;
+    line-height: normal;
 }
 
-.ondertitel {
-    font-size: 540%;
-    /*color: black;*/
-    line-height: 0%;
+.naam {
+  text-transform: uppercase;
 }
 
-#quote {
-    font-size: 150%;
-    line-height: 0%;
-    font-family: 'Playfair Display', serif;
-    animation: color 6s infinite ease-in-out;
-}
-
-#info {
-    font-family: 'Roboto Slab', serif;
-    font-size: 150%;
-}
-
-#links {
-    position: fixed;
-    bottom: 2.5%;
-    width: 100%;
+#menu {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 50%;
     text-align: center;
+    font-weight: bold;
 }
 
-#links > a {
+#menu > ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.5);
+
+}
+
+a {
     text-decoration: none;
-    color: #292B36;
-    font-family: 'Roboto Slab', serif;
-    font-size: 105%;
+    color: white;
+    font-family: Calibri;
+    font-size: 100%;
+    text-align: center
 }
 
-.ondertitel:hover {
-    animation: color 6s infinite;
-}
-
-a:hover {
-    animation: color 6s infinite;
+/*
+ul:hover {
+  animation-name: color;
+  animation-duration: 2s;
 }
 
 @keyframes color {
-    0%{color: #292B36;}
-    15%{color: #C62828;}
-    30%{color: #EF6C00;}
-    45%{color: #F9A825;}
-    60%{color: #2E7D32;}
-    75%{color: #1565C0;}
-    90%{color: #6A1B9A;}
-    100%{color: #292B36;}
+    0%{color: white;}
+    100%{color: #00AFDC;}
 }
-
-@keyframes style {
-    0%{font-style: normal;}
-    50%{font-style: italic;}
-    100%{font-style: normal;}
-}
+*/
 
 /* responsive */
 @media only screen and (max-width: 650px) {
