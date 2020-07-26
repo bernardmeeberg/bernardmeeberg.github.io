@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+
 html {
   background-color:#00AFDC;
 }
@@ -42,16 +48,17 @@ li {
   padding-bottom: 20px;
   /*padding: 10px;*/
   color: white;
-  font-family: Calibri;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto Slab', serif;
+  /*font-family: Calibri;*/
   text-decoration: none;
   font-size: 150%;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-family: Calibri;
     transition: 300ms;
 }
 
