@@ -1,19 +1,5 @@
 html {
-  background: url("radboud.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  overflow: hidden;
-}
-
-body {
-    text-align: center;
-    color: white;
-    font-family: Calibri;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 200%;
-    text-transform: uppercase;
+  background-color:#00AFDC;
 }
 
 .naam {
@@ -25,24 +11,52 @@ body {
     line-height: normal;
 }
 
+.beschrijving {
+  text-transform: none;
+  font-style: italic;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 #menu {
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    width: 50%;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 25px;
+    /*margin: auto;
+    width: 50%;*/
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
 }
 
-#menu > ul {
+/*
+Er kunnen moeilijkheden ontstaan met de margin, padding en text-align in de lijst. Voor een setback gebruik ul>padding:0 of li>padding:10px.
+*/
+
+ul {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
   list-style-type: none;
+  text-align: center;
+  padding: 0px;
 }
 
 li {
-  padding: 10px;
-  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*padding: 10px;*/
+  color: white;
+  font-family: Calibri;
+  text-decoration: none;
+  font-size: 200%;
+  text-transform: uppercase;
 }
 
 a {
@@ -50,40 +64,22 @@ a {
     color: white;
     font-family: Calibri;
     font-size: 100%;
-    text-align: center
+    transition: 300ms;
 }
 
-/*
-ul:hover {
-  animation-name: color;
-  animation-duration: 2s;
+a:hover {
+  font-style: italic;
 }
 
-@keyframes color {
-    0%{color: white;}
-    100%{color: #00AFDC;}
-}
-*/
-
-/* responsive */
-@media only screen and (max-width: 650px) {
-    .titel {
-        font-size: 600%;
-    }
-    .ondertitel {
-        font-size: 300%;
-    }
-    html {
-      background: url("radboud.jpg");
-      background-position: center;
-      background-size: auto;
-    }
-}
-
-@media only screen and (max-width: 350px) {
-  html {
+@media only screen and (min-width: 960px) {
+  .pagina {
+    background-color: #00AFDC;
+  }
+  .html {
     background: url("radboud.jpg");
-    background-position: center;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
   }
 }
