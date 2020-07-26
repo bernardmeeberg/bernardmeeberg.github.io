@@ -1,0 +1,81 @@
+html {
+  background-color:#00AFDC;
+}
+
+.naam {
+  font-weight: bold;
+}
+
+.beschrijving {
+  text-transform: none;
+  font-style: italic;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+/*
+Er kunnen moeilijkheden ontstaan met de margin, padding en text-align in de lijst. Voor een setback gebruik ul>padding:0 of li>padding:10px.
+*/
+
+ul {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*padding: 10px;*/
+  color: white;
+  font-family: Calibri;
+  text-decoration: none;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Calibri;
+    transition: 300ms;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+@media only screen and (min-width: 960px) {
+  li {
+    font-size: 200%;
+  }
+
+  .pagina {
+    background-color: #00AFDC;
+  }
+
+  .home {
+    background: url("radboud.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
