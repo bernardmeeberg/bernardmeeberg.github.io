@@ -5,7 +5,16 @@
 
 
 html {
-  background-color:#00AFDC;
+  /*background-color:#00AFDC;*/
+  animation: color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0%{background-color: #00AFDC;}
+  50%{background-color: #006991;}
+  100%{background-color: #00AFDC;}
 }
 
 .naam {
